@@ -31,7 +31,7 @@ function colorHourBlocks() {
 }
 
 // function to display the date with Moment.js
-function displayDay() {
+function displayTime() {
   $(currentDay).text(moment().format("h:mm a | dddd, MMMM D | YYYY"));
 }
 
@@ -44,5 +44,5 @@ $(saveBtn).click(function () {
 });
 
 colorHourBlocks();
-displayDay();
+setInterval(displayTime, 1000);
 taskStorage();
