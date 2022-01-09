@@ -18,7 +18,7 @@ function taskStorage() {
 // function to color each time block if the time block is behind, equal to, or ahead of the current time
 function colorHourBlocks() {
   $(hourBlock).each(function () {
-    var hourID = $(this).attr("id");
+    hourID = $(this).attr("id");
 
     if (hourID < currentHour) {
       $(this).addClass("past");
