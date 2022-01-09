@@ -1,14 +1,18 @@
+:root {
+  --primarycolor: #2d2d2d;
+}
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  color: var(--primarycolor);
 }
 
 textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
+  color: var(--primarycolor);
   padding: 10px;
 }
 
@@ -22,9 +26,9 @@ tr td:nth-child(3) {
 .jumbotron {
   text-align: center;
   background-color: transparent;
-  color: black;
+  color: var(--primarycolor);
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid var(--primarycolor);
 }
 
 .past {
@@ -46,6 +50,7 @@ tr td:nth-child(3) {
   cursor: pointer;
   overflow: hidden;
   outline: none;
+  color: var(--primarycolor);
 }
 
 .saveBtn i:hover {
