@@ -13,11 +13,9 @@ textarea {
 }
 
 th,
+tr th:nth-child(1),
 tr td:nth-child(3) {
   text-align: center;
-}
-
-tr td:nth-child(3) {
   vertical-align: middle;
 }
 
