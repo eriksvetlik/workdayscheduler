@@ -8,6 +8,8 @@ As the user scrolls down the application, blocks for each business hour are colo
 
 The user is able to add/edit/delete content in each hour block, where then the content is saved to local storage when the user selects the Save button. If the user refreshes the page, the saved content persists.
 
+HTML | CSS | Javascript | JQuery | Moment.js
+
 # Screenshot
 
 ![Screenshot of webpage](./images/homework-readme.png)
